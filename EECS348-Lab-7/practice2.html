@@ -1,0 +1,33 @@
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <style>#paragraph { border-style: solid; border-width: 5px; }</style>
+    <script type="text/javascript" src="functions.js"></script>
+    <title>EECS 348 Lab 7 Practice 2</title>
+  </head>
+  <body>
+    <header>
+      <hr>
+      <nav role="navigation">
+        <a href="index.html">Index</a>
+      <hr>
+    </header>
+    <main>
+      <div id="paragraph">
+          Paragraph to be altered.
+      </div>
+      <table>
+      <tr><td>Border R(0-255):</td><td><input type="text" id="border_R" value=""></td></tr>
+      <tr><td>Border B(0-255):</td> <td><input type="text" id="border_B" value=""></td></tr>
+      <tr><td>Border G(0-255):</td> <td><input type="text" id="border_G" value=""></td></tr>
+      <tr><td>Border Width:</td> <td><input type="text" id="border_width" value=""></td></tr>
+      <tr><td>Background R(0-255):</td> <td><input type="text" id="bg_R" value=""></td></tr>
+      <tr><td>Background G(0-255):</td> <td><input type="text" id="bg_G" value=""></td></tr>
+      <tr><td>Background B(0-255):</td> <td><input type="text" id="bg_B" value=""></td></tr>
+      </table>
+      <button onclick="alert_paragraph_color()">Change the color!</button> <br>
+    </main>
+  </body>
+</html>
